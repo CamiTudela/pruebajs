@@ -1,0 +1,43 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 21%);
+    color: #e0e0e0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+    color: hsl(308, 100%, 89%);
+    margin-bottom: 70px;
+}
+
+input, select, button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 2, 119);
+    background-color: rgb(68, 68, 68);
+    color: #e0e0e0;
+    font-size: 20px;
+}
+
+button {
+    background-color: hsl(327, 100%, 33%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+

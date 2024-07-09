@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <form id="form">
+            <div class="a">
+                <div>
+                    <h1>Conversor de moneda nacional</h1>
+                    <label>Monto en CLP: $</label>
+                    <input type="text" placeholder="Inserte monto en CLP" id="amount">
+                </div>
+
+                <div class="thing">
+                    <label>Moneda a convertir: </label>
+                    <select name="Moneda" id="currency">
+                        <option value="dolar">Dolar</option>
+                        <option value="euro">Euro</option>
+                        <option value="uf">Unidad de fomento</option>
+                    </select>
+                    <button type="submit">Calcular </button>
+                </div>
+                <p id="result"></p>
+            </div>
+        </form>
+        <section>
+            <h2>Valor historico</h2>
+            <div id="canvaContainer">
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
